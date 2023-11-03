@@ -6,6 +6,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.inner{
+	text-align: left;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h3_2, h4, h5, h6, p, blockquote,
@@ -2609,9 +2612,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #000000;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/bg.jpg"), url("../../images/bg.jpg");
+		background-image: url("images/bg.jpg"), url("../../images/Blue\ Black\ Background.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2622,7 +2625,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 20.5em;
 	}
 
 		#header > * {
@@ -3016,7 +3019,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 20em;
 			}
 
 				#header h1 {
@@ -3069,7 +3072,9 @@ input, select, textarea {
 			}
 
 		/* Header */
-
+		.inner{
+			text-align: center;
+		}
 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
@@ -3096,7 +3101,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/Dark\ bottom.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3173,7 +3178,9 @@ input, select, textarea {
 				}
 
 		/* Header */
-
+		.inner{
+			text-align: center;
+		}
 			#header {
 				padding: 2.25em 1.5em;
 			}
@@ -3195,8 +3202,8 @@ input, select, textarea {
 			}
 
 				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+					margin: 1.5em 0 0 0;
+					padding: 0.5em 0 0 0;
 				}
 
 		/* Poptrox */
